@@ -15,9 +15,9 @@ terraform {
   }
 
 
-module "aws-child" {
-source = "app.terraform.io/yaseen-tfcorg/child/aws"
-version = "1.0.1"
-region = var.region
+module "ApprovedInstance" {
+  source  = "app.terraform.io/yaseen-tfcorg/ApprovedInstance/aws"
+  version = "1.0.1"
+  region = var.region
+  instance_Type = var.instance_type
 }
-
