@@ -19,5 +19,5 @@ module "ApprovedInstance" {
   source  = "app.terraform.io/yaseen-tfcorg/ApprovedInstance/aws"
   version = "1.0.1"
   region = var.region
-  instance_Type = var.instance_type
+  instance_type = var.instance_type
 }
