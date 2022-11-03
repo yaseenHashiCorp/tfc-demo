@@ -9,7 +9,7 @@ terraform {
     cloud {
     organization = "yaseen-tfcorg"
     workspaces {
-      tags = [ "   " ]
+      tags = [ "tfcdemo" ]
     }
   }
   }
@@ -21,10 +21,3 @@ version = "1.0.1"
 region = var.region
 }
 
-output "web_instance_ip" {
-value = module.aws-child.web_instance_ip
-}
-
-output "web_instance_public_dns"{
-value = module.aws-child.web_instance_public_dns
-}
