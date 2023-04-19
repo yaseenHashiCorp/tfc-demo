@@ -16,6 +16,9 @@ terraform {
 
 
 
+
+
+
 module "ApprovedInstance" {
   source  = "app.terraform.io/yaseen-tfcorg/ApprovedInstance/aws"
   version = "1.0.6"
@@ -24,15 +27,4 @@ module "ApprovedInstance" {
 }
 
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 
