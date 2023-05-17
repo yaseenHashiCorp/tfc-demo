@@ -21,6 +21,9 @@ module "ApprovedInstance" {
   region = var.region
   instance_type = var.instance_type
 }
+  
+  
+  
 
   
  
